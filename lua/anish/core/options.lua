@@ -12,7 +12,7 @@ opt.shiftwidth = 2
 opt.expandtab = true
 opt.autoindent = true
 
-opt.wrap = false
+opt.wrap = true
 
 --search setting
 opt.ignorecase = true
@@ -31,8 +31,6 @@ opt.backspace = "indent,eol,start"
 -- clipboard
 opt.clipboard:append("unnamedplus")
 
---split windows 
+--split windows
 opt.splitright = true -- split vertical window to the right
 opt.splitbelow = true -- split horizontal window to the bottom
-
-

@@ -4,7 +4,7 @@ return {
 	cmd = "ToggleTerm",
 	keys = {
 
-		{ "<C-\\>", "<cmd>:1ToggleTerm direction=float<CR>", mode = { "n", "i", "t" } },
+		{ "<C-1>", "<cmd>:1ToggleTerm direction=float<CR>", mode = { "n", "i", "t" } },
 		{ "<M-1>", "<cmd>:2ToggleTerm direction=horizontal size=20<CR>", mode = { "n", "t" } },
 		{ "<M-2>", "<cmd>:3ToggleTerm direction=vertical size=100<CR>", mode = { "n", "t" } },
 		{ "<M-3>", "<cmd>:4ToggleTerm direction=float<CR>", mode = { "n", "t" } },

@@ -1,4 +1,6 @@
-return {
+return {}
+
+--[[ return {
 	"mfussenegger/nvim-lint",
 	event = { "BufReadPre", "BufNewFile" },
 	config = function()
@@ -26,4 +28,4 @@ return {
 			lint.try_lint()
 		end, { desc = "Trigger linting for current file" })
 	end,
-}
+} ]]
